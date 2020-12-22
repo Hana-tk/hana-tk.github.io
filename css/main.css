@@ -1,32 +1,134 @@
-/* your css here */
+@charset "utf-8";
+/* CSS Document */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-/* color scheme */
-:root {
-    --header-bg-color: #222;
-    --header-txt-color: #aaa;
-    --header-highlight-color: white;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS reset ends here*/
+/* global style*/
 
-.contact .navbar-inverse .navbar-nav > li > a[href="contact.html"], 
-.about .navbar-inverse .navbar-nav > li > a[href="about.html"],
-.index .navbar-inverse a.navbar-brand[href="."]
-{
-    color:var(--header-highlight-color);
-    background-color: inherit;
+header {
+  background-size: cover;
+  background-position: center top;
+  width: 100%;
 }
-
-main {
-    min-height: calc(100vh - 2em);
+.intro {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 8% 0;
 }
-footer {
-    height: 1em;
+.intro h1 {
+  font-size: 3em;
+  text-align: center;
+  color: #2f3f68;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  line-height: 1.5em;
 }
-
-.navbar-inverse{
-    color:var(--header-txt-color);
-    background-color: var(--header-bg-color);
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: martel;
+  -webkit-animation-delay: 4s;
+  /* Chrome, Safari, Opera */
+  animation-delay: 2s;
 }
-
-.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
-    color: inherit;
+.work {
+  height: 300px;
+  padding: 2% 0;
+}
+.work h2 {
+  padding: 4% 0;
+  font-weight: 400;
+  font-size: 2em;
+  color: #2f3f68;
+}
+.text-box {
+  float: left;
+  text-align: left;
+  width: 480px;
+  background-color: #fff;
+  height: 100%;
+}
+.text-box-content {
+  padding: 4% 8%;
+}
+.text-box-content p {
+  line-height: 1.8;
+  letter-spacing: .03em;
+  font-size: 1em;
+  font-weight: 300;
+  color: #2f3f68;
+}
+.button {
+  padding: 5% 3%;
+  border: 3px solid #cfbe10;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+  color: #cfbe10;
+  text-align: center;
+  display: block;
+  background: #2f3f68;	
+  text-transform: uppercase;
+  margin-top: 4%;
+}
+.button:hover {
+  color: #2f3f68;
+  background-color: #cfbe10;
+}
+.image-area {
+  width: 480px;
+  height: 300px;
+  overflow: hidden;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
 }
