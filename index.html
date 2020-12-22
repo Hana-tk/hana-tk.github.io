@@ -1,64 +1,132 @@
-
 <!DOCTYPE html>
 <html lang="en" class="index">
-    <head>
-    
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
-<link rel="stylesheet" href="css/main.css" />
+
+<head>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #2f3f68;
+        }
+
+        li {
+            float: left;
+        }
+
+        li.contact {
+            float: right;
+        }
+
+        li a,
+        .dropbtn {
+            display: inline-block;
+            color: #cfbe10;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: #cfbe10;
+            color: #2f3f68;
+        }
+
+        li.dropdown {
+            float: right;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #2f3f68;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: #cfbe10;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #cfbe10;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
         
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
     <title>Home</title>
-    </head>
-    <body>
+</head>
+
+<body>
     <main>
-        
+
         <!-- your header here -->
-        
-        
-<div class="navbar navbar-inverse navbar-static-top" role="navigation">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href=".">Portfolio of Hana Kidwai</a>
-    </div>
-    <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>
-</div>
-        
-    
+
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href=".">Portfolio of Hana Kidwai</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+
         <p>Index or home page here.</p>
         <h1>Welcome to my Portfolio.</h1>
         <h2>I'm Hana Kidwai</h2>
         <img src="profile.png" alt="Profile Picture">
-        <p> Currently in my second year of UX Design at Laurier, I specialize in interface design and user research. In my free time, you may find me working on news stories for the Sputnik, or reading a book on psychology. If you'd like to hear more about my work as a designer, let's get in touch. </p>
+        <p> Currently in my second year of UX Design at Laurier, I specialize in interface design and user research. In
+            my free time, you may find me working on news stories for the Sputnik, or reading a book on psychology. If
+            you'd like to hear more about my work as a designer, let's get in touch. </p>
         <button type="button">Contact Me.</button>
         <h3>The Therapy Box</h3>
         <img src="box2.png" width="350" height="400" alt="Therapy Box">
-        <p> See how we hack the idea of a traditional box by designing an object that encompasses components of aromatherapy and light therapy. </p>
+        <p> See how we hack the idea of a traditional box by designing an object that encompasses components of
+            aromatherapy and light therapy. </p>
         <button type="button">View Project</button>
         <h3>The Brantford Transit Eye</h3>
-        <p> Take a look at how we attempt to encourage citizens of Brantford to take a more eco-friendly mode of transportation by using the Brantford Transit Eye. </p>
+        <p> Take a look at how we attempt to encourage citizens of Brantford to take a more eco-friendly mode of
+            transportation by using the Brantford Transit Eye. </p>
         <button type="button">View Project</button>
-            
-    
 
-        
+
+
+
     </main>
-    
-<footer>
-    &copy; <script>document.write(new Date().getFullYear())</script> Hana Kidwai
-</footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
-        
-    </body>
+
+    <footer>
+        &copy;
+        <script>document.write(new Date().getFullYear())</script> Hana Kidwai
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
 </html>
-        
